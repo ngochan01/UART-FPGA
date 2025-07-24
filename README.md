@@ -74,7 +74,7 @@ UART TX
 - `data_byte = 0b10101010`
 - `uart_tx` behavior:
   - Drops to `0` (Start bit)
-  - Sends 8 bits, **LSB first**
+  - Sends 8 bits, LSB first
   - Rises to `1` (Stop bit)
 
 ### Second Transmission (~200 μs)
