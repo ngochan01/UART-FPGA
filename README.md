@@ -26,7 +26,7 @@ This project is inspired by and partially based on resources and code examples f
 > 高云开发板FPGA逻辑设计与验证教程 V1.2
 
 ## UART Waveform 
-UART RX
+### UART RX
 
 <img width="1144" height="427" alt="image" src="https://github.com/user-attachments/assets/fd445823-bf91-4ed0-a890-38604ba563d5" />
 ## Signal Analysis: 0 – 3000ns
@@ -58,7 +58,7 @@ At around **1400ns**:
 - System is still in the Start bit phase of transmission
 
 
-UART TX
+### UART TX
 
 <img width="1144" height="425" alt="image" src="https://github.com/user-attachments/assets/50711dd9-5f90-40d2-896c-74a7f4b1eb09" />
 
