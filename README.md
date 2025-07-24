@@ -23,4 +23,4 @@ This project is inspired by and partially based on resources and code examples f
 > 高云开发板FPGA逻辑设计与验证教程 V1.2
 
 UART RX
-<img width="945" height="484" alt="image" src="https://github.com/user-attachments/assets/011530cf-e30a-4810-a252-c7cedaa16c10" />
+
