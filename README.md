@@ -27,6 +27,7 @@ UART RX
 
 <img width="1144" height="427" alt="image" src="https://github.com/user-attachments/assets/fd445823-bf91-4ed0-a890-38604ba563d5" />
 
+
 UART TX
 
 <img width="1144" height="425" alt="image" src="https://github.com/user-attachments/assets/50711dd9-5f90-40d2-896c-74a7f4b1eb09" />
