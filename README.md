@@ -62,8 +62,6 @@ At around **1400ns**:
 
 <img width="1144" height="425" alt="image" src="https://github.com/user-attachments/assets/50711dd9-5f90-40d2-896c-74a7f4b1eb09" />
 
-## Waveform Progress
-
 ### Initial State
 - `reset_n = 1` → System active
 - `send_en = 0`
