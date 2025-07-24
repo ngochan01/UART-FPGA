@@ -62,4 +62,27 @@ UART TX
 
 <img width="1144" height="425" alt="image" src="https://github.com/user-attachments/assets/50711dd9-5f90-40d2-896c-74a7f4b1eb09" />
 
+## Waveform Progress
+
+### Initial State
+- `reset_n = 1` → System active
+- `send_en = 0`
+- `uart_tx = 1` (idle state)
+
+### First Transmission (~35 μs)
+- `send_en = 1` → 1 pulse to start transmission
+- `data_byte = 0b10101010`
+- `uart_tx` behavior:
+  - Drops to `0` (Start bit)
+  - Sends 8 bits, **LSB first**
+  - Rises to `1` (Stop bit)
+
+### Second Transmission (~200 μs)
+- `send_en = 1` → 1 pulse to start transmission
+- `data_byte = 0b01010101`
+- `uart_tx` repeats the same transmission process
+
+### Other Notes
+- `baud_set = 100` → High baud rate (faster transmission)
+- `tx_done = 1` when the full stop bit is transmitted
 
