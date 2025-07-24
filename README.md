@@ -16,12 +16,12 @@ This project implements a UART (Universal Asynchronous Receiver/Transmitter) mod
 
 ## Project Scope
 
-- **Simulation only** – This project is focused on functional simulation, not hardware deployment.
+- Simulation only – This project is focused on functional simulation, not hardware deployment.
 - Intended for learning and academic research purposes.
 
 ## Credits
 
-This project is inspired by and partially based on resources and code examples from **Xiaomeige Electronics**, particularly the document:
+This project is inspired by and partially based on resources and code examples from Xiaomeige Electronics, particularly the document:
 
 > 高云开发板FPGA逻辑设计与验证教程 V1.2
 
